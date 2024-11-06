@@ -1,0 +1,94 @@
+sass style.scss style.css
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: ;
+    padding: ;
+    background-color: #f0f0f0; /* Background color */
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #fff; /* Header background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Header shadow */
+
+    #logo {
+        font-weight: bold;
+        width: 180px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    nav li {
+        margin-right: 20px;
+    }
+}
+
+/* Main styles */
+main {
+    .sidebar{      
+        width: 200px;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sidebar shadow */
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .content {
+        display: flex;
+        padding-left: 250px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+       
+/*container -ms-layout-grid-type*/
+        .product {
+            align-items: center;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+            img {
+                width: 100px;
+                height: 100px;
+                margin-right: 20px;
+            }
+
+            p {
+                margin: 0;
+            }
+        }
+    }
+}
+
+/* Footer styles */
+footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Footer shadow */
+}
